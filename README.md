@@ -133,7 +133,7 @@ WebDriverAgent is a WebDriver server implementation for iOS that can be used to 
 
 - Open **Xcode > Preferences > Accounts**: Add developer's Apple ID
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/account.png)
+![Image description](https://github.com/sayem/appium/blob/master/img/account.png)
 
 - Open **Terminal** and enter following command to find **WebDriverAgent** PATH:
 ```
@@ -189,25 +189,25 @@ open .
 - Login to Apple developer account and [register device](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal) to developer account.
 - Open project **WebDriverAgent.xcodeproj** within folder **WebDriverAgent** in Xcode.
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/webdriveragent.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/webdriveragent.png)
 
 - Select target **WebDriverAgentLib**, in the Signing section, check **Automatically manage signing** and select the team.
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/xcode1.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/xcode1.png)
 
 - Then on the menu bar, select **Product > Build**
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/xcode2.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/xcode2.png)
 
 - Repeat the last two steps for **WebDriverAgentRunner**
 - Xcode may fail to create a provisioning profile for the `WebDriverAgentRunner` target:
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/xcode-facebook-fail.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/xcode-facebook-fail.png)
 
 
 This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from `com.facebook.WebDriverAgentRunner` to something that Xcode will accept:
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/xcode-bundle-id.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/xcode-bundle-id.png)
 
 - Build **WebDriverAgent** by executing this command on Terminal in WebdriverAgent folder to verify all above steps worked
 ```
@@ -245,7 +245,7 @@ iPhone 8 Plus (13.0) [B855D910-6552-4D0B-D9B-FBECB7E02823] (Simulator)
     
 - In case this dialog is displayed, select **Always Allow**.
 
-![Image description](https://github.com/sayemh/appium/blob/master/img/access.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/access.png)
 
 
 If this was successful, the output should end with something like:
