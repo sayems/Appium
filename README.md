@@ -133,7 +133,7 @@ WebDriverAgent is a WebDriver server implementation for iOS that can be used to 
 
 - Open **Xcode > Preferences > Accounts**: Add developer's Apple ID
 
-![Image description](https://github.com/sayem/appium/blob/master/img/account.png)
+![Image description](https://github.com/sayems/appium/blob/master/img/account.png)
 
 - Open **Terminal** and enter following command to find **WebDriverAgent** PATH:
 ```
